@@ -25,3 +25,10 @@ git push -u origin develop
 # 1. Partir siempre desde develop al día
 git checkout develop
 git pull origin develop
+
+# 3. Trabajar en el código y guardar cambios
+git add .
+git commit -m "feat: implement user login endpoint"
+
+# 4. Subir la feature al remoto (para backup o Pull Request)
+git push -u origin feature/auth-login
